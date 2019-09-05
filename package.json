@@ -1,0 +1,8 @@
+{
+  "name": "Web-Application-Testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/deegrams221/Web-Application-Testing.git",
+  "author": "Diana Grams <deegrams221@gmail.com>",
+  "license": "MIT"
+}
