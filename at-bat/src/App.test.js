@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from '@testing-library/react';
 import 'jest-dom/extend-expect';
 import App from './App';
-import {addBalls, addStrikes} from './Components/Dashboard';
+import Dashboard, {addBalls, addStrikes} from './Components/Dashboard';
 
 test('App renders without crashing', () => {
   render(<App />);
@@ -19,6 +19,6 @@ test('addSrikes adds 1 to the strikes score', () => {
 });
 
 test('contains hit button', () => {
-  const {getByTestId} = render(<App />);
+  const {getByTestId} = render(<Dashboard />);
   getByTestId(/hit/i);
 });
