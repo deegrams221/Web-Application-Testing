@@ -12,7 +12,7 @@ export const addStrikes = strikes => {
 export default function Dashboard () {
   const [balls, setBalls] = useState(0);
   const [strikes, setStrikes] = useState(0);
-  const [hit, setHit] = useState(0);
+  const [hit] = useState(0);
 
   const ballsIncrement = () => {
     if(balls < 4){
@@ -54,7 +54,7 @@ export default function Dashboard () {
         <button onClick={() => ballsIncrement()}>Ball</button>
         <button onClick={() => strikesIncrement()}>Strike</button>
         <button onClick={() => foulIncrement()}>Foul</button>
-        <button onClick={()=>hitIncrement()}>Hit</button>
+        <button onClick={() => hitIncrement()}>Hit</button>
     </div>
   );
 }  
