@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  color: #003263;
+}
+
+button {
+  margin: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 10rem;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+  background-color: #BA0021;
+  border: 3px solid #003263;
+  color: #C4CED4;
+}
