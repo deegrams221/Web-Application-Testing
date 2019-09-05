@@ -15,11 +15,11 @@ export default function Dashboard () {
   return(
     <div>
       <h1>Dashboard</h1>
+        <Display balls={balls} setBalls={setBalls}/>
         <button onClick={() => ballsIncrement()}>Ball</button>
         <button>Strike</button>
         <button>Foul</button>
         <button>Hit</button>
-        <Display balls={balls} setBalls={setBalls}/>
     </div>
   );
 }  
